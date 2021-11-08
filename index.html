@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="code.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+	<div class="money_keeper">
+
+	<b><a id="balance">10</a></b><img id='money-ico' src="money.png">
+
+	</div>
+	
+	<b><a id='games'>Режимы</a></b>
+	
+	<b><a id='openWallet' onclick='getModal()' class="wallet_btn">Кошелёк</a></b>
+	<img src="candy_main.png" id="logo">
+
+	<a id='games_panel'></a>
+</div>
+
+<div class="block-games">
+	
+
+</div>
+
+<img id='icon_mines' src="mines_ico.png">
+
+<div class="main"></div>
+<div class="roulet">  
+
+	<img id='wheel' class='obj' src="candy_png.png" width="300px" height="300px">
+	<img src="str.png" id="str">
+	<a onclick='rotate()' id='start_btn'>Вращайте барабан!</a>
+
+	<a id=""></a>
+	<input size="20px" id='staff' class="staff" type="text" placeholder="Min: 1" value="1">
+
+
+	<a class="notification" id="notification"></a>
+	<div class='btns'>
+		
+		<b><a class="btn_obj" onclick='yellow()' id='yellow'>3X</a></b>
+		<b><a class="btn_obj" onclick='orange()' id='orange'>3X</a></b>
+		<b><a class="btn_obj" onclick='red()' id='red'>3X</a></b>
+		<b><a class="btn_obj" onclick='green()' id='green'>6X</a></b>
+
+	</div>
+
+	<div class="lastgames-div"></div>
+		
+<a class="game-btn" id='game-1'>a</a><a class="game-btn" id='game-2'>a</a><a class="game-btn" id='game-3'>a</a><a class="game-btn" id='game-4'>a</a>
+		
+
+<div id='modalWallet' class='modal'>
+
+	<div class='wallet-content' id="wallet-content">
+		<span onclick='closeModal()' id='close' class="close">&times;</span>
+		<b><a class='wallet_btns' id ='deposit'>ПОПОЛНЕНИЕ</a><a class='wallet_btns' id="depout">ВЫВОД</a></b>
+		<a href='https://t.me/notificator001bot'><img src="telegram.png" id='tg' class="tg" width="50px" height="50px"></a>
+		<a onclick='main()' id="regmsg">Создать комнату</a><span id="reg"><==</span>
+		
+	</div>
+
+</div>
+
+
+
+
+</div>
+</div>
+</body>
+</html>

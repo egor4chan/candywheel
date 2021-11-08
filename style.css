@@ -1,0 +1,457 @@
+body {
+
+	background-color: #356e77;
+
+}
+
+img.obj {
+	align-content: center;
+	position: fixed;
+	left: 550px;
+	top: 100px;
+	pointer-events: none;
+
+
+}
+
+
+
+
+img#obj:hover {
+	width: 302px;
+	height: 302px;
+	pointer-events: none;
+}
+
+a#start_btn {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    font-family: Arial;
+    color: white;
+    padding: 8px;
+    background-color: green;
+    border-radius: 6px;
+    position: fixed;
+    left: 620px;
+    top: 440px;
+}
+
+a#start_btn:hover {
+	background-color: #056b03;
+	color: #c2c2c2;
+}
+
+img#str {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 675px;
+	top: 75px;
+
+}
+
+a#notification {
+	font-family: Arial;
+	padding: 10px;
+	background-color: gray;
+	border-radius: 5px ;
+	position: fixed;
+	top: 670px;
+	left: 30px;
+	color: white;
+	transition: 1s;
+}
+
+a.btns {
+	font-family: Arial;
+	padding: 10px;
+	position: fixed;
+	top: 470px;
+}
+
+a#yellow {
+	background-color: yellow;
+	padding: 10px 35px;
+	font-family: Arial;
+	border-radius: 6px;
+	position: fixed;
+	top: 560px;
+	left: 503px;
+	transition: 0.5s;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+
+}
+
+a#yellow:hover {
+	background-color: #878301;
+}
+
+a#orange {
+	background-color: orange;
+	padding: 10px 35px;
+	font-family: Arial;
+	border-radius: 6px;
+	position: fixed;
+	top: 560px;
+	left: 603px;
+	transition: 0.5s;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+a#orange:hover {
+	background-color: #874201;
+}
+
+a#red {
+
+	background-color: red;
+	padding: 10px 35px;
+	font-family: Arial;
+	border-radius: 6px;
+	position: fixed;
+	top: 560px;
+	left: 703px;
+	transition: 0.5s;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+a#red:hover {
+	background-color: #870101;
+}
+
+
+a#green {
+	background-color: green;
+	padding: 10px 35px;
+	font-family: Arial;
+	border-radius: 6px;
+	position: fixed;
+	top: 560px;
+	left: 803px;
+	transition: 0.5s;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+a#green:hover {
+	background-color: #064500;
+}
+
+div.header {
+	padding: 28px;
+	margin-top: -8px;
+	margin-left: -16px;
+	margin-right: -16px;
+	background-color: #275057;
+	
+}
+
+a.balance {
+	font-family: Arial;
+	padding: 10px 12px;
+	background-color: white;
+	border-radius: 5px;
+	position: fixed;
+	left: 150px;
+	margin-top: -15px;
+}
+
+a#balance {
+	font-family: Arial;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: fixed;
+	left: 1203px;
+	margin-top: -18px;
+	margin-left: -20px;
+	text-align: center;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+input.staff {
+	border-radius: 5px;
+	font-family: Arial;
+	width: 40px;
+	padding: 15px;
+	background-color: white;
+	text-align: center;
+	border: none;
+	position: fixed;
+	top: 490px;
+	left: 665px;
+
+}
+
+img#logo {
+	position: fixed;
+	width: 10%;
+	height: 23%;
+	margin-top: -74px;
+}
+
+img#money-ico {
+	width: 1.5%;
+	height: 3.5%;
+	position: fixed;
+	left: 1160px;
+	margin-top: -11px;
+}
+
+div.money_keeper {
+	padding: 20px 50px;
+	width: 25px;
+	background-color: #162c30;
+	position: fixed;
+	left: 1150px;
+	border-radius: 8px;
+	margin-top: -20px;
+	text-align: center;
+	color: white;
+}
+
+a.wallet_btn {
+	padding: 20px 50px;
+	background-color: #60d656;
+	width: 25px;
+	border-radius: 8px;
+	position: fixed;
+	margin-top: -20px;
+	font-family: Arial;
+	left: 1240px;
+	height: 0px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+a.wallet_btn:hover {
+	background-color: green;
+	color: gray;
+}
+
+div.block-games {
+	position: fixed;
+	border-radius: 7px;
+	top: 150px;
+	padding: 50px 10px;
+	background-color: #275057;
+	width: 50px;
+	height: 300px;
+	margin-left: -20px;
+	transition: 0.5s;
+}
+
+div.block-games:hover {
+	margin-left: -15px;
+}
+
+div.lastgames-div {
+	padding: 10px 50px;
+	background-color: #275057;
+	border-radius: 8px;
+	height: 20px;
+	width: 100px;
+	position: fixed;
+	top: 620px;
+	left: 580px;
+	margin-left: 10px;
+}
+
+a.game-btn {
+	
+	padding: 3px 8px;
+	width: 10px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: white;
+	margin: 15px;
+	color: white;
+	position: fixed;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    text-align: center;
+    top: 612px;
+
+    
+}
+
+a#game-1 {
+	position: fixed;
+	left: 637px;
+	
+}
+
+a#game-2 {
+	position: fixed;
+	left: 687px;
+}
+
+a#game-3 {
+	position: fixed;
+	left: 737px;
+}
+
+a#game-4 {
+	position: fixed;
+	left: 587px;
+	background-color: white;
+}
+
+img#icon_mines {
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}
+
+a#games {
+	font-family: Arial;
+	padding: 10px 30px;
+	height: 10px;
+	position: fixed;
+	left: 200px;
+	margin-top: -18px;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: white;
+    margin-bottom: -10px;
+    transition: 0.5s;
+}
+
+a#games:hover {
+	color: lightgray;
+}
+
+a#games_panel {
+	padding: 50px 10px;
+	background-color: #275057;
+	position: fixed;
+	left: 230px;
+	height: 50px;
+	width: 50px;
+	border-radius: 8px;
+	top: -65px;
+	transition: 0.5s;
+	z-index: -10;
+}
+
+a#games_panel:hover {
+	top: -10px;
+	background-color: gray;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+.wallet-content {
+	background-color: #275057;
+	margin: 15% auto;
+	padding: 50px 50px;
+	border: 1px solid #000000;
+	width: 50%;
+	height: 250px;
+	margin-top: 100px;
+	border-radius: 10px;
+	font-family: Arial;
+	transition: 1s;
+
+
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wallet_btns {
+	color: white;
+
+}
+
+#deposit {
+	position: fixed;
+	left: 600px;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    
+}
+
+#depout {
+	position: fixed;
+	right: 700px;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#reg {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	left: 670px;
+	top: 250px;
+	text-align: center;
+}
+
+#regmsg {
+	position: absolute;
+	padding: 10px;
+	border-radius: 5px;
+	left: 630px;
+	top: 300px;
+	color: white;
+	background-color: #ab9a05;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    transition: 0.5s;
+}
+
+#regmsg:hover {
+	background-color: #595103;
+	color: lightgray;
+	font-family: Arial;
+
+}
+
